@@ -67,7 +67,7 @@ const link = onError(({ graphQLErrors, networkError }) => {
         `[GraphQL error]: Message: ${message}, Location: ${locations}, Path: ${path}`,
       ),
     );
-
+asdfasdf
   if (networkError) console.log(`[Network error]: ${networkError}`);
 });
 ```
